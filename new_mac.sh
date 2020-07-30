@@ -69,6 +69,7 @@ PACKAGES=(
     gettext
     gifsicle
     git
+    git-lfs
     graphviz
     imagemagick
     jq
