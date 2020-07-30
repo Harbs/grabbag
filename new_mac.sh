@@ -111,6 +111,7 @@ CASKS=(
     brave-browser
     clipy
     dropbox
+    eclipse-java
     fontforge
     fontlab
     firefox
