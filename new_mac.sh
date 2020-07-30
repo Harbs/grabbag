@@ -76,6 +76,7 @@ PACKAGES=(
     libmemcached 
     lynx
     markdown
+    maven
     memcached
     node
     python
