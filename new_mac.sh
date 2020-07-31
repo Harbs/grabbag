@@ -34,6 +34,10 @@
 
 echo "Starting bootstrapping"
 
+# Create Apache symlink at root
+mkdir System/Volumes/Data/Apache
+echo -e 'Apache\tSystem/Volumes/Data/Apache' | sudo tee -a /etc/synthetic.conf
+
 # Check for Homebrew, install if we don't have it
 if test ! $(which brew); then
     echo "Installing homebrew..."
