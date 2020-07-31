@@ -126,6 +126,7 @@ CASKS=(
     macvim
     mamp
     meld
+    microsoft-office
     open-in-code
     postman
     screenflow
